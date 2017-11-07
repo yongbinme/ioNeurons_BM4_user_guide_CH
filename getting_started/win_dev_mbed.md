@@ -24,6 +24,17 @@ int main() {
     }
 }
 ```
+**使用ST-link下载.bin文件至BM4**
+
+如下图所示把ST-link对应管脚与BM4连接起来。用一根Micro USB type ab数据线给BM4供电，红色电源指示灯变亮。使用另外一根Micro USB数据线连接PC和ST-link。此时电脑中会显示BM4为存储盘。把步骤7中生成的`blinky_LED_NUCLEO_F446RE.bin`文件直接拖拽到此存储盘中，下载完成。此时BM4的绿色LED指示灯闪烁。
+
+
+
+
+
+
+
+
 
 
 
